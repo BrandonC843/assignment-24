@@ -2,10 +2,53 @@
   box-sizing: border-box; }
 
 body {
-  background: limegreen; }
+  background: white; }
 
-h2 {
-  color: maroon;
-  border-bottom: 4px solid maroon; }
+.container {
+  border: 4px solid red;
+  background-color: lightblue;
+  font-size: 20px;
+  width: 500px; }
+
+.chore_list {
+  text-align: center;
+  font-family: "comic sans ms"; }
+
+h1 {
+  color: white;
+  font-size: 75px; }
+
+.btn-fail {
+  color: black;
+  float: right;
+  background-color: #add8e6;
+  border-color: #add8e6; }
+
+.btn {
+  padding-bottom: 18px;
+  background-color: #add8e6; }
+
+button {
+  width: 30px;
+  height: 30px; }
+
+blockquote {
+  padding-left: 30px;
+  width: 100%;
+  display: inline-block;
+  border-left: none; }
+
+.fa-times {
+  color: red; }
+
+.fa-plus {
+  color: red; }
+
+.chores {
+  text-align: left;
+  font-size: 35px; }
+
+list-inline {
+  margin-right: 30px; }
 
 /*# sourceMappingURL=styles.css.map*/
