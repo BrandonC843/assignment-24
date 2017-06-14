@@ -57,7 +57,7 @@ const SettingListState = React.createClass({
    render: function(){
       return (
          <div className="chore_list">
-            <h1>To Do List </h1>
+            <h1> To Do List </h1>
 				<InputComponent updateListCb={this._updatingTheList}/>
 				<hr/>
             <div className="chores">
@@ -82,7 +82,7 @@ const InputComponent = React.createClass({
    render: function(){
 		return (
 			<div className="list-inline">
-				<input ref="listInput" type='text' className="form-inline" placeholder="    Get The Shit Done"/>
+				<input ref="listInput" type='text' className="form-inline" placeholder=" To Do List "/>
 				<button className="btn btn-plus btn-md" onClick={this._handleNewItem}><i className="fa fa-plus"/></button>
 			</div>
 		)
